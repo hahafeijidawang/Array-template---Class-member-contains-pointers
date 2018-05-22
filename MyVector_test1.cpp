@@ -53,9 +53,9 @@ public:
 
 
    }
-
+//t1=t2
    Teacher & operator =( const Teacher & obj1){
-
+            //清楚t1的旧内存。
        if (this->pname != NULL)
        {
            free(pname);
